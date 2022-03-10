@@ -1,4 +1,4 @@
-Added #!/bin/bash
+#!/bin/bash
 clear
 
 echo "Entre seu nome:"
