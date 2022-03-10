@@ -1,0 +1,3 @@
+clear
+
+echo "Hello World"
