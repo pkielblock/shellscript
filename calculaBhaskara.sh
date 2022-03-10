@@ -15,4 +15,6 @@ delta=$(echo "scale=2;$b*$b-4*$a*$c" | bc)
 x1=$(echo "scale=2;(-($b)+sqrt($delta))/(2*$a)" | bc)
 x2=$(echo "scale=2;(-($b)-sqrt($delta))/(2*$a)" | bc)
 
+clear
+
 echo -e "Delta: $delta \nX1: $x1 \nX2: $x2"
